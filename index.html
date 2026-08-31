@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal | SAULO SANTOS</title>
+    <meta name="description"
+        content="Portfólio de Saulo Santos — Estudante de Ciência da Computação na FECAP, focado em Desenvolvimento de Software, Dados e IA.">
+
+    <!-- Fontes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Nav Minimalista -->
+    <nav id="main-nav" class="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/foto_profissional.jpeg" alt="Saulo Santos" class="nav-avatar">
+                SS
+            </a>
+            <div class="nav-links">
+                <a href="#projetos">Projetos</a>
+                <span class="nav-sep">/</span>
+                <a href="#sobre">Sobre</a>
+                <span class="nav-sep">/</span>
+                <a href="#skills">Skills</a>
+                <span class="nav-sep">/</span>
+                <a href="#contato">Contato</a>
+            </div>
+            <a href="assets/curriculo.pdf" class="btn btn-nav-cta" target="_blank">Ver Currículo</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section section--dark hero">
+        <div class="container">
+            <p class="hero-label"><span class="sig">/</span> portfólio</p>
+            <h1 class="hero-title">SAULO<br>SANTOS</h1>
+            <p class="hero-subtitle">Estudante de Ciência da Computação na FECAP, focado em Desenvolvimento de Software,
+                Dados e IA. Buscando uma oportunidade de estágio para construir, desenvolver e aprender cada vez mais.
+            </p>
+            <div class="hero-bottom-row">
+                <div class="hero-cta">
+                    <a href="#projetos" class="btn btn-primary">Ver Projetos <span class="sig">/</span></a>
+                </div>
+                <div class="hero-scroll-hint">
+                    <span>Role para baixo</span>
+                    <span class="hero-scroll-arrow">↓</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos em destaque -->
+    <section id="projetos" class="section section--light projetos">
+        <div class="container">
+            <h2 class="section-title"><span class="sig">/</span> PROJETOS EM DESTAQUE</h2>
+        </div>
+        <div class="projetos-grid">
+
+            <!-- Projeto 1: Cannolitsky (ímpar → imagem à esquerda) -->
+            <article class="projeto-card projeto-card--img-left reveal-item">
+                <div class="projeto-card-img">
+                    <img src="assets/Projeto%201.png" alt="Cannolitsky" class="projeto-img">
+                </div>
+                <div class="projeto-content">
+                    <h3>Cannolitsky (Dashboard Cannoli)</h3>
+                    <p class="projeto-problema"><strong>Problema:</strong> A startup Cannoli enfrentava processos
+                        manuais para analisar o desempenho de campanhas promocionais, atrasando a extração de
+                        insights.</p>
+                    <p class="projeto-abordagem"><strong>Abordagem:</strong> Desenvolvemos um dashboard interativo
+                        integrado a IA. Liderei a modelagem de KPIs financeiros
+                        (receita, margem, CAC/LTV) e a implementação do painel financeiro, além de contribuir na
+                        arquitetura de software (diagramas UML).</p>
+                    <p class="projeto-resultado"><strong>Resultado:</strong> Automatização de insights sobre
+                        campanhas, centralização financeira e suporte rápido à decisão orientado a dados.</p>
+                    <ul class="projeto-stack">
+                        <li>Python</li>
+                        <li>Streamlit</li>
+                        <li>Groq API (IA)</li>
+                        <li>Google Colab</li>
+                    </ul>
+                    <div class="projeto-links">
+                        <a href="https://github.com/2026-1-NCC4/Projeto2/tree/main" class="btn btn-primary"
+                            target="_blank">Repositório no GitHub</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Projeto 2: FourWare (par → imagem à direita) -->
+            <article class="projeto-card projeto-card--img-right reveal-item">
+                <div class="projeto-card-img">
+                    <img src="assets/Projeto%202.png" alt="FourWare" class="projeto-img">
+                </div>
+                <div class="projeto-content">
+                    <h3>FourWare (App Mobile Comedoria da Tia)</h3>
+                    <p class="projeto-problema"><strong>Problema:</strong> O atendimento manual na cantina da FECAP
+                        gerava longas filas, lentidão nos pedidos e falta de controle automatizado de estoque.</p>
+                    <p class="projeto-abordagem"><strong>Abordagem:</strong> Desenvolvemos um aplicativo mobile
+                        para pedidos antecipados. Fui responsável por UX (Wireframes, protótipos de alta fidelidade
+                        e Jornada do Usuário) e Cloud Native (CRUD,
+                        Fullstack e Banco de Dados em Contêineres).</p>
+                    <p class="projeto-resultado"><strong>Resultado:</strong> Digitalização do serviço, reduzindo o
+                        tempo de espera, otimizando o atendimento e automatizando a gestão.</p>
+                    <ul class="projeto-stack">
+                        <li>Kotlin / Android</li>
+                        <li>Firebase</li>
+                        <li>Figma</li>
+                    </ul>
+                    <div class="projeto-links">
+                        <a href="https://github.com/2025-2-NADS3/Projeto4/tree/main" class="btn btn-primary"
+                            target="_blank">Repositório no GitHub</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Projeto 3: Doatech (ímpar → imagem à esquerda) -->
+            <article class="projeto-card projeto-card--img-left reveal-item">
+                <div class="projeto-card-img">
+                    <img src="assets/Projeto%203.png" alt="Doatech" class="projeto-img">
+                </div>
+                <div class="projeto-content">
+                    <h3>Doatech (Dashboard Instituto Criativo)</h3>
+                    <p class="projeto-problema"><strong>Problema:</strong> A ONG Instituto Criativo sofria com a
+                        gestão descentralizada de eventos e doações, prejudicando a transparência e a prestação de
+                        contas.</p>
+                    <p class="projeto-abordagem"><strong>Abordagem:</strong> Criação de uma plataforma web integrada
+                        para centralizar o controle gerencial. Liderei as frentes de
+                        desenvolvimento Full Stack e UI/UX Design (Figma), além de revisar todas as demais
+                        entregas do sistema.</p>
+                    <p class="projeto-resultado"><strong>Resultado:</strong> Atualização em tempo real de métricas e
+                        doações, garantindo maior eficiência administrativa e fortalecimento dos vínculos
+                        colaborativos.</p>
+                    <ul class="projeto-stack">
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>MySQL</li>
+                        <li>Figma</li>
+                    </ul>
+                    <div class="projeto-links">
+                        <a href="https://github.com/2025-1-NADS2/Projeto5" class="btn btn-primary"
+                            target="_blank">Repositório no GitHub</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="section section--dark sobre">
+        <div class="container">
+            <h2 class="section-title"><span class="sig">/</span> SOBRE MIM</h2>
+            <div class="sobre-wrapper">
+                <div class="sobre-img-container">
+                    <img src="assets/foto_profissional.jpeg" alt="Saulo Santos" class="sobre-foto">
+                </div>
+                <div class="sobre-content">
+                    <p>Acredito que a tecnologia gera o maior impacto quando construímos sistemas robustos,
+                        compreendemos o contexto de negócio por trás dos dados e utilizamos ferramentas inovadoras a
+                        nosso favor.</p>
+                    <p>Minha trajetória reflete essa versatilidade. No lado do desenvolvimento, já atuei na construção
+                        de ponta a ponta de aplicações (como o DoaTech) e sistemas IoT (HydroSecure). No lado analítico,
+                        tenho me aprofundado na manipulação de dados, recursos avançados de Power BI e Inteligência
+                        Artificial.</p>
+                    <p>Encaro desafios técnicos com uma visão lógica, analítica e colaborativa. Meu objetivo atual é
+                        encontrar uma oportunidade de estágio onde eu possa aplicar essa bagagem multidisciplinar e
+                        aprender com equipes experientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills/Stack -->
+    <section id="skills" class="section section--light skills">
+        <div class="container">
+            <h2 class="section-title"><span class="sig">/</span> SKILLS & STACK</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal-item">
+                    <h3>Desenvolvimento</h3>
+                    <ul class="skill-list">
+                        <li>JavaScript & Node.js</li>
+                        <li>Python</li>
+                        <li>C# & Java</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal-item">
+                    <h3>Dados & IA</h3>
+                    <ul class="skill-list">
+                        <li>MySQL</li>
+                        <li>Power BI & Excel Avançado</li>
+                        <li>Modelagem de Dados</li>
+                        <li>Ferramentas de IA</li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal-item">
+                    <h3>Ferramentas & Práticas</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>Lógica de Programação</li>
+                        <li>Análise de Projetos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section section--dark contato">
+        <div class="container">
+            <h2 class="section-title"><span class="sig">/</span> CONTATO</h2>
+            <p>Se interessou pelo meu trabalho? Vamos conversar!</p>
+            <div class="contato-links">
+                <span class="contato-arrow">↗</span>
+                <a href="https://www.linkedin.com/in/saulo-santos-a1ba86334" class="btn btn-primary"
+                    target="_blank">Fale comigo no Linkedin</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Assinatura -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-sub">© 2026 — Saulo Ribeiro Santos</p>
+        </div>
+    </footer>
+
+    <!-- Badge circular fixo de contato -->
+    <a href="#contato" class="contact-badge" id="contact-badge">
+        <span>Linkedin</span>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
